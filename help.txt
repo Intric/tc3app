@@ -1,0 +1,13 @@
+this program requires autohotkey, but the folder can be put anywhere
+
+the script will only be active when roblox is active, and only be functional when f5 is pressed upon entering a game
+
+you will need to have q set as 'open build menu' and e set as 'exit build menu'
+
+adding a shortcut to the app file is recommended
+this can be done by right clicking and adding a shortcut, then dragging this shortcut to the windows startup location
+the startup folder is located at
+'C:\Users\<you>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup'
+
+once everything has been setup, join a tc3 game, hit f5, and then hit ctrl-z on the power plant icon
+now when you press z, the power plant should get quickly put onto your cursor, and saving with ctrl-z will then be unnecessary
