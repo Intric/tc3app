@@ -37,11 +37,11 @@ return
 if(active and not chatting){
     PixelGetColor,color,mx,my
     if(color=0xC1A179){
-        Send,q
+        Send, q
     }
     sleep,100
     CoordMode Pixel
-    ImageSearch,FoundX,FoundY,0,0,A_ScreenWidth,A_ScreenHeight,*50 *TransBlack powerplanticon.PNG
+    ImageSearch,FoundX,FoundY,0,0,A_ScreenWidth,A_ScreenHeight,*25 *TransBlack powerplanticon.PNG
     if(ErrorLevel=0){
         MouseGetPos,ox,oy
         BlockInput,MouseMove
