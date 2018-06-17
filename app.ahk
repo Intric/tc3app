@@ -39,17 +39,17 @@ if(active and not chatting){
     if(color=0xC1A179){
         Send, q
     }
-    sleep,100
+    sleep,200
     CoordMode Pixel
     ImageSearch,FoundX,FoundY,0,0,A_ScreenWidth,A_ScreenHeight,*25 *TransBlack powerplanticon.PNG
     if(ErrorLevel=0){
+        Click,up,right
         MouseGetPos,ox,oy
         BlockInput,MouseMove
-        MouseMove,FoundX,FoundY
-        Send,{Click}
-        Send,q
-        MouseMove,ox,oy
+        MouseClick,left,FoundX,FoundY,1,0
+        MouseMove,ox,oy,0
         BlockInput,MouseMoveOff
+        Send,q
     }
 }
 return
